@@ -31,6 +31,8 @@ app/
 
 """
 
+import os
+
 # 3rd party
 from flask import Flask
 from flask_restful import Api
@@ -47,7 +49,7 @@ from resources.store import Store, StoreList
 app = Flask(__name__)
 
 # define type of db and path
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', 'sqlite:///data.db')
 # only changes extensions behaviour and not underlying sql alchemy behaviour
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False  # flask-alchemy can track changes and takes resources
 
