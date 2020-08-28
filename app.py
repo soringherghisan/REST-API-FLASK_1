@@ -54,13 +54,6 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False  # flask-alchemy can track 
 app.secret_key = 'secret'
 api = Api(app)
 
-
-# create data.db file using sql alchemy
-@app.before_first_request
-def create_tables():
-    db.create_all()
-
-
 jwt = JWT(app, authenticate, identity)
 
 # add resources to Api ; endpoints
