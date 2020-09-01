@@ -4,7 +4,7 @@ Hi,
 
 This is a simple REST Api with CRUD functionality, implemented using Flask, Flask-JWT, Flask-RESTful, Flask-SQLAlchemy and Postgres. 
 
-## Functionality / Endpoints. 
+## Endpoints. 
 App has 3 database tables: users, stores and items. 
 
 
