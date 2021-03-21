@@ -23,3 +23,7 @@ App has 3 database tables: users, stores and items.
 
 ## Links
 Deployed to Heroku -> https://stores-rest-api-practice-sorin.herokuapp.com/
+
+
+## Credit
+Done by following this course: https://www.udemy.com/course/rest-api-flask-and-python/
