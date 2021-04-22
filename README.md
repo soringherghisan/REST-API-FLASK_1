@@ -27,3 +27,4 @@ Deployed to Heroku -> https://stores-rest-api-practice-sorin.herokuapp.com/
 
 ## Credit
 Done by following this course: https://www.udemy.com/course/rest-api-flask-and-python/
+and this one: https://www.udemy.com/course/automated-software-testing-with-python/
